@@ -52,7 +52,7 @@ public class SystemMethodsTest {
    
     @Test
     public void testRemoveStudent(){
-     assertEquals(Arrays.asList(), m.RemoveEmployee());
+     assertEquals(Arrays.asList(), m.RemoveStudent());
     }
     
     @Test
