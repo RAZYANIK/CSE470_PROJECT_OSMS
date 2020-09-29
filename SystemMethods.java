@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package managemnetSystem;
 
 import java.awt.List;
@@ -52,7 +48,7 @@ public class SystemMethods {
     } 
     
     
-    public ArrayList<String> RemoveEmployee(){
+    public ArrayList<String> RemoveStudent(){
     ArrayList<String> arr = new ArrayList<String>();
     arr.clear();
     return arr;   
@@ -93,7 +89,7 @@ public class SystemMethods {
     if(!arr.isEmpty()){
        return "You can now view the details"; 
     }
-    return "Please fillup all the columns";
+    return "Do not exist";
     }
    
        
@@ -117,7 +113,7 @@ public class SystemMethods {
     if(!arr.isEmpty()){
        return "Final starts from 5th october 2020"; 
     }
-    return "Please fillup all the columns";
+    return "no events";
     }
     
     public int StudentReportCard(int a,int b,int c,int d,int e){
