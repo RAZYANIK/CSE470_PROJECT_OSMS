@@ -7,10 +7,6 @@ package school_management_system;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Muhammad Taha Azam
- */
 public class StudentReportcard extends javax.swing.JFrame {
 
     /**
